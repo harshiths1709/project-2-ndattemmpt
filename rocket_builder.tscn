@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://du2wnmuvjvgk8"]
+
+[ext_resource type="Texture2D" uid="uid://033tliklvva5" path="res://assets/backgrounds/blueprintbackground.jpg" id="1_oil7k"]
+
+[node name="RocketBuilder" type="Control" unique_id=1965866308]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 12.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.9955233, 0.98828614)
+
+[node name="MainLayout" type="VBoxContainer" parent="." unique_id=532836073]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 2064.0
+scale = Vector2(1.0073957, 0.52966034)
+
+[node name="TopBar" type="PanelContainer" parent="MainLayout" unique_id=767162654]
+custom_minimum_size = Vector2(0, 140)
+layout_mode = 2
+
+[node name="ItemScroller" type="ScrollContainer" parent="MainLayout/TopBar" unique_id=1764339569]
+layout_mode = 2
+vertical_scroll_mode = 0
+scroll_horizontal_by_default = true
+
+[node name="ItemList" type="HBoxContainer" parent="MainLayout/TopBar/ItemScroller" unique_id=3449013]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="BuildAreaBackground" type="TextureRect" parent="MainLayout" unique_id=623824796]
+layout_mode = 2
+texture = ExtResource("1_oil7k")
+stretch_mode = 1
+
+[node name="Mirrorline" type="ColorRect" parent="MainLayout/BuildAreaBackground" unique_id=298284515]
+layout_mode = 0
+offset_top = 901.60864
+offset_right = 2000.0
+offset_bottom = 903.60864
+scale = Vector2(0.98431903, -0.55284876)
+color = Color(0, 1, 1, 0.2901961)

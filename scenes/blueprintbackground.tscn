@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://brubtlivtx870"]
+
+[ext_resource type="Texture2D" uid="uid://033tliklvva5" path="res://assets/backgrounds/blueprintbackground.jpg" id="1_rrnbt"]
+
+[node name="Blueprintbackground" type="Sprite2D" unique_id=1622737222]
+position = Vector2(959.5001, 548.50006)
+scale = Vector2(1.7787039, 0.57031256)
+texture = ExtResource("1_rrnbt")
