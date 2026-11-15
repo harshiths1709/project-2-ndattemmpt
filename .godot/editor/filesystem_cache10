@@ -1,0 +1,10 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1794720812
+icon.svg::CompressedTexture2D::6740364316573984448::1794650223::1794650229::1::::<><><>0<>0<>054e86399a03df49108053ee096f7b9b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+RocketBuilder.gd::GDScript::4632050450150718810::1794683071::0::1::::<>Control<><>0<>0<><>::
+rocket_builder.tscn::PackedScene::8620136774504484325::1794683071::0::1::::<><><>0<>0<><>::uid://033tliklvva5::::res://assets/backgrounds/blueprintbackground.jpg
+::res://assets/::1794676400
+::res://assets/backgrounds/::1794676401
+blueprintbackground.jpg::CompressedTexture2D::1814258264531327882::1794650638::1794676401::1::::<><><>0<>0<>1768f13447473b4f88c91e4755be7a00<>res://.godot/imported/blueprintbackground.jpg-980f70370cb8662b754dc8e093e5c8a9.ctex::
+::res://scenes/::1794676718
+blueprintbackground.tscn::PackedScene::3621013818793571045::1794676718::0::1::::<><><>0<>0<><>::uid://033tliklvva5::::res://assets/backgrounds/blueprintbackground.jpg
